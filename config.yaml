@@ -133,6 +133,7 @@ params:
         description: A basic freelance HTML page for a fundamentals course final based in Canada. The aim was to grasp most of the HTML features.
         type: Website
       - title: Nollini (discontinued)
+        type: Website
         url: "#"
         description: An Ecommerce website that hooks a target market of Lebanese employees based in Lebanon with copy-A european distributers through submitting and showcasing their products on one central hub.
   project:
