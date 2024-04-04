@@ -121,7 +121,7 @@ params:
       - EDA
     list:
       - title: YMY Management System
-        url: "#"
+        url: "https://sariitani.pythonanywhere.com/"
         description: Developed a business management website for YMY, encapsulating their management processes and automated data entry with Twilio API for WhatsApp Business.
         type: Website
       - title: Project 2
