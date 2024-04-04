@@ -135,7 +135,11 @@ params:
       - title: Nollini (discontinued)
         type: Website
         url: "https://github.com/SariItani/Nollini--discontinued-"
-        description: An Ecommerce website that hooks a target market of Lebanese employees based in Lebanon with copy-A European distributers through submitting and showcasing their products on one central hub.
+        description: An Ecommerce static website that hooks a target market of Lebanese employees based in Lebanon with copy-A European distributers through submitting and showcasing their products on one central hub.
+      - title: Blood Donnation Website
+        type: Website
+        url: "https://github.com/SariItani/Blood-Donnation-Flask-App"
+        description: A simple freelance blood donnation flask app for a software engineering course. Implements required functionalities learned through the course and advanced user authentication and security standards.
   project:
     title: Projects
     icon: fas fa-project-diagram
