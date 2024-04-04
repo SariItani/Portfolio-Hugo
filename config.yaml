@@ -140,6 +140,13 @@ params:
         type: Website
         url: "https://github.com/SariItani/Blood-Donnation-Flask-App"
         description: A simple freelance blood donnation flask app for a software engineering course. Implements required functionalities learned through the course and advanced user authentication and security standards.
+      - title: Image Recognition with CV2
+        type: AI
+        url: "https://github.com/SariItani/ImageCV2Detection-of-Matchboxes"
+        description: Freelance computer vision project. OpenCV2 script to detect matches based on a HAAR Cascade fine tuned model, with the fine tuning dataset being normal images of matchboxes.
+      - title: Parkinsons Disease Data Acquisition and Preprocessing
+        type: Data Science
+        description: "Helped with devising a PhD student's research on parkinsons' disease, by providing state-of-the-art datasets for AI training freely available on the internet, for the follwing data types 'EEG', 'EMG', 'X and Y for leg movement', 'voice', and 'Handwriting'"
   project:
     title: Projects
     icon: fas fa-project-diagram

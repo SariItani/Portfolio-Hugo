@@ -2,7 +2,11 @@
 <h4>
   {{ $type := .type }}
     <span style="color: grey;"><i>{{ $type }}</i></span>
+    {{ if .url}}
   <a href="{{ .url }}" target="_blank">{{- .title -}}</a>
+  {{else}}
+  <b style="color: rgb(221, 221, 221);">{{- .title -}}</b>
+  {{end}}
 </h4>
 <p class="markdownify indent-8">{{- .description | markdownify -}}</p>
 {{ end }}
