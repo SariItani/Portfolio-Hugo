@@ -8,8 +8,13 @@ draft: false
 
 # My strats to run ARC & IEEE-CIS & LOOP or any other club
 
-The Wiki definition of an Institution is “a humanly devised structure of rules and norms that shape and constrain individual behavior. All definitions of institutions generally entail that there is a level of persistence and continuity”.
+The Wiki definition of an Institution is:
+> a humanly devised structure of rules and norms that shape and constrain individual behavior. All definitions of institutions generally entail that there is a level of persistence and continuity.
+
 So it’s all about law, order, for the sake of continuity and sustainability. This is what this is about, creating rules and regulations for maintaining the society for the mission and cause that it is.
+
+![image info](../../images/img2.png)
+
 To begin with I would like to state the mission and vision and the motivation of the society. It is very clear that students have a lack of motivation, lack of belonging, and lack of purpose towards the faculty of engineering and the degree that they’re building up their lives with and that there’s really no passion anymore, which results in barely studying and barely engaging in the community and the phenomenon where students barely even try to succeed and produce zero effort in order to succeed, and so the missing piece of the puzzle is being a part of a community that represents a home base for all engineers where there is support for everyone, the perfect type of support for an engineer in an engineering school in a highly reputed university that always aims to grow and grow and grow.
 Our mission and motivation is to provide this community and fill in the gaps that extend demotivated students to their roads of success through paths of belonging and support.
 
