@@ -115,39 +115,26 @@ params:
   publication:
     title: Freelance
     icon: fas fa-handshake
-    format:
-      - date
-      - title
-      - authors
-      - journal
     types:
-      - Journal Articles
-      - Proceedings
+      - Website
+      - AI
+      - EDA
     list:
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
+      - title: YMY Management System
         url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
+        description: Developed a business management website for YMY, encapsulating their management processes and automated data entry with Twilio API for WhatsApp Business.
+        type: Website
+      - title: Project 2
         url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
+        description: Description of the project
+        type: AI
+      - title: Project 3
         url: "#"
-        type: Proceedings
+        description: Description of the project
+        type: EDA
+      - title: Project 4
+        url: "#"
+        description: Description of the project
   project:
     title: Projects
     icon: fas fa-project-diagram
