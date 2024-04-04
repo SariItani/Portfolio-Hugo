@@ -124,14 +124,14 @@ params:
         url: "https://sariitani.pythonanywhere.com/"
         description: A business management website for YMY, encapsulating their management processes and automated data entry with Twilio API for WhatsApp Business. It covers a rich backend that 
         type: Website
-      - title: Project 2
-        url: "#"
-        description: Description of the project
-        type: AI
+      - title: Bac2 LS Biology Assistant
+        url: "https://srisri.pythonanywhere.com/"
+        description: A 
+        type: Website
       - title: Musical Instruments HTML views
-        url: "#"
-        description: Description of the project
-        type: EDA
+        url: "https://github.com/SariItani/Music-Information-HTML/"
+        description: A basic freelance HTML page for a fundamentals course final based in Canada. The aim was to grasp most of the HTML features.
+        type: Website
       - title: Project 4
         url: "#"
         description: Description of the project
