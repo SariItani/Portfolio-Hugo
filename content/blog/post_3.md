@@ -4,6 +4,7 @@ date: 2023-01-13
 description: "My strats to run ARC & IEEE-CIS & LOOP or any other club"
 draft: false
 ---
+![image info](../../images/img1.jpg)
 
 # My strats to run ARC & IEEE-CIS & LOOP or any other club
 
