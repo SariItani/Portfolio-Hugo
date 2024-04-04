@@ -1,7 +1,7 @@
 {{ range .Site.Params.publication.list }}
 <h4>
   {{ $type := .type }}
-    <span style="color: grey;">{{ $type }}</span>
+    <span style="color: grey;"><i>{{ $type }}</i></span>
   <a href="{{ .url }}" target="_blank">{{- .title -}}</a>
 </h4>
 <p class="markdownify indent-8">{{- .description | markdownify -}}</p>
