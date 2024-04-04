@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en-us" class="m-auto dark"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>aafu theme</title>
+
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="Personal Porftolio" />
+<meta name="author" content="Sari Itani" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.124.1" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">        <link rel="manifest" href="/site.webmanifest">        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">        <link rel="shortcut icon" href="/favicon.ico">
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+  <link rel="stylesheet" href="/css/aafu.css" />
+
+
+
+
+<link href="/main.css" rel="stylesheet" />
+
+
+  
+
+  <script>
+    let html = document.querySelector("html");
+    let theme = window.localStorage.getItem("theme");
+    if (theme) {
+      theme === "dark"
+        ? html.classList.add("dark")
+        : html.classList.remove("dark");
+    } else if (html.classList.contains("dark")) {
+      window.localStorage.setItem("theme", "dark");
+    } else {
+      html.classList.remove("dark");
+      window.localStorage.setItem("theme", "light");
+    }
+
+    window.onload = () => {
+      let themeToggle = document.querySelector(".theme-toggle");
+      if (window.localStorage.getItem("theme") === "dark") {
+        themeToggle.classList.remove("bi-moon-fill");
+        themeToggle.classList.add("bi-brightness-high");
+      } else {
+        themeToggle.classList.add("bi-moon-fill");
+        themeToggle.classList.remove("bi-brightness-high");
+      }
+
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
+</head>
+<body class="h-screen p-2 m-auto max-w-4xl flex flex-col">
+    
+    <header
+  class="nav flex flex-row row py-2 mb-6 w-full border-b border-gray-300 dark:border-gray-700 justify-between"
+>
+  <div>
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="http://localhost:1313/">Home</a>    
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="/blog">Blog</a>
+  </div>
+  
+  <i
+    class="fas fa-sun theme-toggle text-blue-500 hover:text-blue-700 dark:text-yellow-300 dark:hover:text-yellow-500 cursor-pointer text-lg mr-9 sm:mr-0"
+    onclick="lightDark(this)"
+  ></i>
+</header>
+
+<script>
+  const lightDark = (el) => {
+    let html = document.querySelector("html");
+    if (html.classList.contains("dark")) {
+      html.classList.remove("dark");
+      el.classList.add("fa-moon");
+      el.classList.remove("fa-sun");
+      window.localStorage.setItem("theme", "light");
+    } else {
+      html.classList.add("dark");
+      el.classList.add("fa-sun");
+      el.classList.remove("fa-moon");
+      window.localStorage.setItem("theme", "dark");
+    }
+  };
+</script>
+
+    
+    <main class="grow">
+<div class="grid grid-cols-1 md:grid-cols-5 gap-2 sm py-2">
+  <div class="col-span-2">
+    <div class="bg-gray-300 dark:bg-darker rounded drop-shadow-md p-2">
+      <div class="flex flex-col justify-center">
+        <div class=""><div class="w-100 h-100 flex justify-center p-4">
+  <img
+    class="rounded rounded-full"
+    src="/images/pfp.jpg"
+    alt="Sari Itani"
+    style="max-width: 250px"
+  />
+</div>
+</div>
+        <div class="p-2 text-center">
+          <h1 class="mb-0">Sari Itani</h1>
+<h2 class="mb-0">Computer Engineer - AI expertise</h2>
+<h3 class="mb-4">Aramoun, Lebanon</h3>
+<div class="mb-4 flex flex-wrap justify-center">
+  
+  <div class="mx-2">
+    <a class="text-2xl" href="https://www.linkedin.com/in/sari-itani-868481200">
+      <i class="mt-1 fab fa-linkedin-in"></i>
+    </a>
+  </div>
+  
+  <div class="mx-2">
+    <a class="text-2xl" href="https://www.github.com/SariItani">
+      <i class="mt-1 fab fa-github"></i>
+    </a>
+  </div>
+  
+  <div class="mx-2">
+    <a class="text-2xl" href="https://orcid.org/0009-0007-7886-510X">
+      <i class="mt-1 fab fa-orcid"></i>
+    </a>
+  </div>
+  
+  <div class="mx-2">
+    <a class="text-2xl" href="https://wa.link/a9h48p">
+      <i class="mt-1 fab fa-whatsapp"></i>
+    </a>
+  </div>
+  
+  <div class="mx-2">
+    <a class="text-2xl" href="mailto:sariitani101@gmail.com">
+      <i class="mt-1 fas fa-envelope"></i>
+    </a>
+  </div>
+  
+</div>
+ 
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-span-3 relative">
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion active">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-user"></i>
+          About Me</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class=""><p class="markdownify">
+  Highly motivated and results-oriented Computer Engineer, specialized in Artificial Intelligence and passionate about backend development, constantly seeking a challenging position to leverage my technical expertise and contribute to intelligent and efficient computer systems.
+</p>
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-briefcase"></i>
+          Leadership &amp; Management</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class="">
+<h4 style="text-decoration: underline;">President</h4>
+<p class="mb-0">
+  2023 - <em>Present</em> &middot; 
+  <a href="https://www.instagram.com/bau_arc/">ARC &amp; IEEE-CIS</a>
+  
+</p>
+
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<p>Check out my blog post on <a href="/blog/post_3/">strategies to run ARC and IEEE-CIS</a></p>
+<ul>
+<li><em>Launch, March 2023</em>: The group who worked on the &ldquo;Cafeteria Madness&rdquo; game formed the AI and Robotics club (ARC) committee and showcased the game during launch and accepted applications for people to start joining the ARC club.</li>
+<li><em>Engineering Day, May 2023</em>: We got recognised as an established club by the faculty of engineering by receiving a certificate.</li>
+<li><em>Orientation, August 2023</em>: We showcased, in a short presentation, What ARC is and Why students would want to join ARC, accepting registration applications from the new first year students.</li>
+<li><em>Booth, September 2023</em>: We Annuonced our main plans for the semester in the form of a road map, showcased What ARC is and Why students would want to join, and accepted new registration applications.</li>
+<li><em>AI and Robotics Debate &amp; Trivia day, October 2023</em>: It was a failed attempt to start weekly or monthly club meetings, we debated a broad pool of topics and voted for those who got a point and in the end announced which side wins for each topic.</li>
+<li><em>Ethical Hacking, October 2023</em>: We collabed with Semicolon-Academy to introduce students to the area of cybersecurity in an interactive seminar.</li>
+<li><em>ROS2, November 2023</em>: We collabed with Eng. Abboud Hayek to introduce students to the area of robotics and showcase robotics development with ROS2 framework.</li>
+<li><em>NLP, November 2023</em>: We collabed with Eng. Lara Wehbe to introduce students to the area of NLP in AI and showcase the process of an LLM.</li>
+<li><em>Innovation, December 2023</em>: We collabed with DR. Ahmad El Hajj to spread awareness on the importance of innovating in our university years especially as engineering students.</li>
+<li><em>Huawei HCAI, December 2023</em>: Logistics Management ofthe program.</li>
+<li><em>Launch, April 2024</em>: ARC club was expanding and required financial support for upcoming ambitious projects, so ARC became IEEE Computational Intelligence Society (CIS) student branch.</li>
+<li><em>Zaka/Beirut AI Workshop, May 2024</em>: IEEE Computational Intelligence Society collaborated with Zaka AI to deliver an extensive workshop entitled &ldquo;AI development: from university knowledge to workplace skills&rdquo;, which is self explanatory, introducing the tech stacks and skills and workflows that an AI engineer does on the job.</li>
+</ul>
+</div>
+
+
+
+<h4 style="text-decoration: underline;">Co-founder</h4>
+<p class="mb-0">
+  2023 - <em>Present</em> &middot; 
+  <a href="https://www.instagram.com/theloop.lb">LOOP</a>
+  
+</p>
+
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<ul>
+<li>Loop is an unofficial alliance of all student bodies in universities related to computer majors</li>
+<li>Devised my previous <a href="/blog/post_3/">strategies</a> from ARC &amp; IEEE-CIS to help organize 2 nationwide events: a game jam on April 20th 2024, and an AI hackathon during the fall semester of 2024-2025</li>
+<li>Held meetings and jotted down meeting minutes discussing the scalability and potential of LOOP&rsquo;s events and what sort of outreach and success LOOP could opt for.</li>
+</ul>
+
+</div>
+
+
+
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-medal"></i>
+          Competitions</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class="">
+  <h4 style="text-decoration: underline;">LAU IEEE-Robotics D.A.R.E</h4>
+  <p class="mb-0">
+    April 27, 2024 &middot; Lebanese American University
+  </p>
+  
+    <p><b>Idea: </b>Developing a cheap yet efficient wildfire surveillance system to quickly scan the area and generate a priority zone that would instruct fire fighters to most optimally stop the fire, based on aerial images and environmental data and critical conditions such as presence of casualties and human residence, hence saving time and lives.</p>
+  
+
+  <h4 style="text-decoration: underline;">LAU Case Competiton</h4>
+  <p class="mb-0">
+    June 9, 2023 &middot; Lebanese American University
+  </p>
+  
+    <p>
+      <b>Idea:</b> &#39;&#39;Revolutionizing Lebanese Tourism: Embrace the Hunt Campaign&#39;&#39; Spearheaded the development and execution of an AR-enabled scavenger hunt campaign aimed at promoting Lebanon as a top travel destination, and Orchestrated a multi-channel marketing strategy and collaborated with diverse stakeholders to drive engagement and stimulate economic growth through immersive tourism experiences.<br>
+      <b>Detailed Description: </b>
+      <a href="https://drive.google.com/file/d/1uS6bXf34LMHY2P91r6vDBR12HBPhoJB8/view?usp=sharing" target="_blank"><i>Click here</i></a>
+    </p>
+  
+
+  <h4 style="text-decoration: underline;">Huawei ICT-AI</h4>
+  <p class="mb-0">
+    February 2024 &middot; Huawei (MENA)
+  </p>
+  
+    <p>
+      <b>Idea:</b> Language translation and voice generation have seen significant advancements, but current systems often lack the ability to capture the subtleties of human speech. This project proposes a solution that combines transformer-based language translation models with voice cloning techniques to deliver a more immersive and authentic translation experience. By utilizing the power of cloud-based AI platforms, real-time audio interception, and deep learning algorithms, our system aims to generate voiceovers that mirror the speaker&#39;s tone, mood, and pitch in the target language. With a user- friendly interface and a focus on maintaining privacy and ethical standards, our solution addresses the limitations of existing automatic translation systems and strives to provide a professional and engaging communication tool.<br>
+      <b>Detailed Description: </b>
+      <a href="https://github.com/Leboweeb/Scoltia-Realtime-Voice-Translation-for-Teams" target="_blank"><i>Click here</i></a>
+    </p>
+  
+
+  <h4 style="text-decoration: underline;">NeurIPS 2023 Machine Unlearning</h4>
+  <p class="mb-0">
+    Novemeber 2023 &middot; Kaggle
+  </p>
+  
+    <p>
+      <b>Idea:</b> The main objective of this competition is to develop an algorithm that takes an AI model and a forget set, part of the training set, leaving behind the retain set, and returns an AI model that’s as closely accurate as the original given model, but the effect of the forget set will be deprecated so that its influence is almost null, meaning that the accuracy on the forget set should approach zero.<br>
+      <b>Detailed Description: </b>
+      <a href="https://drive.google.com/file/d/145EBI-Z9WfegppMqmYXoVa3J0WiSFju8/view?usp=drive_link" target="_blank"><i>Click here</i></a>
+    </p>
+  
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-handshake"></i>
+          Freelance</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class="">
+
+
+<h4 style="text-decoration: underline;">Journal Articles</h4><p class="foo indent-8">2018.
+
+
+<a href="#">
+  <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
+</a>
+
+
+F Last, F Second, P secondary.
+Journal of Field 52 (16), 9033-9044.
+</p>
+<p class="foo indent-8">2018.
+
+
+<a href="#">
+  <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
+</a>
+
+
+F Last, F Second, P secondary.
+Journal of Field 52 (16), 9033-9044.
+</p>
+
+
+<h4 style="text-decoration: underline;">Proceedings</h4><p class="foo indent-8">2018.
+
+
+<a href="#">
+  <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
+</a>
+
+
+F Last, F Second, P secondary.
+Journal of Field 52 (16), 9033-9044.
+</p>
+
+
+
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-project-diagram"></i>
+          Projects</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class="">
+<h4>
+  <a href="#">Project 1</a>
+</h4>
+<p class="markdownify indent-8">Description of the project</p>
+
+<h4>
+  <a href="#">Project 2</a>
+</h4>
+<p class="markdownify indent-8">Description of the project</p>
+
+<h4>
+  <a href="#">Project 3</a>
+</h4>
+<p class="markdownify indent-8">Description of the project</p>
+
+<h4>
+  <a href="#">Project 4</a>
+</h4>
+<p class="markdownify indent-8">Description of the project</p>
+
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-tasks"></i>
+          Proposals &amp; Research</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class="">
+<h4>
+  <a href="#">Project 1</a>
+</h4>
+<p class="markdownify indent-8">Description of the project</p>
+
+<h4>
+  <a href="#">Project 2</a>
+</h4>
+<p class="markdownify indent-8">Description of the project</p>
+
+<h4>
+  <a href="#">Project 3</a>
+</h4>
+<p class="markdownify indent-8">Description of the project</p>
+
+<h4>
+  <a href="#">Project 4</a>
+</h4>
+<p class="markdownify indent-8">Description of the project</p>
+
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-laptop-code"></i>
+          Skills</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+        id="skill-panel"
+        
+      >
+        <div class=""><script>
+  let skillPanel = document.querySelector("#skill-panel")
+    .previousElementSibling;
+  skillPanel.addEventListener("click", function() {
+    let skillBars = document.querySelectorAll("#skill-percent");
+    skillBars.forEach(elem => {
+      elem.style.width = elem.classList[0];
+    });
+  });
+</script>
+
+<code>Skill 1, Skill 2</code>
+<div class="w-100 mt-1 mb-3 border border-black dark:border-gray-300 rounded" style="height: 1.25rem;">
+  <div id="skill-percent" class="90% bg-blue-500 dark:bg-yellow-700 h-full rounded" style="width: 0; transition: all 0.5s;"></div>
+</div>
+
+<code>Skill 3</code>
+<div class="w-100 mt-1 mb-3 border border-black dark:border-gray-300 rounded" style="height: 1.25rem;">
+  <div id="skill-percent" class="80% bg-blue-500 dark:bg-yellow-700 h-full rounded" style="width: 0; transition: all 0.5s;"></div>
+</div>
+
+<code>Skill 4</code>
+<div class="w-100 mt-1 mb-3 border border-black dark:border-gray-300 rounded" style="height: 1.25rem;">
+  <div id="skill-percent" class="50% bg-blue-500 dark:bg-yellow-700 h-full rounded" style="width: 0; transition: all 0.5s;"></div>
+</div>
+
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-music"></i>
+          Music</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class=""><ul class="pl-0">
+  
+  <li class="list-unstyled mb-2">file1</li>
+  
+  <li class="list-unstyled mb-2">file2</li>
+  
+  <li class="list-unstyled mb-2">file3</li>
+  
+</ul>
+</div>
+      </div>
+    </div>
+    
+
+    <script src="/js/accordion.js"></script>
+  </div>
+</div>
+
+    </main>
+    
+  </body>
+</html>

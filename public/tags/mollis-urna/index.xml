@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mollis Urna on </title>
+    <link>http://localhost:1313/tags/mollis-urna/</link>
+    <description>Recent content in Mollis Urna on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mollis-urna/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Strategy to run ARC &amp; IEEE-CIS</title>
+      <link>http://localhost:1313/blog/post_3/</link>
+      <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post_3/</guid>
+      <description>donec lacinia eleifend sem a The Wiki definition of an Institution is “a humanly devised structure of rules and norms that shape and constrain individual behavior. All definitions of institutions generally entail that there is a level of persistence and continuity”. So it’s all about law, order, for the sake of continuity and sustainability. This is what this is about, creating rules and regulations for maintaining the society for the mission and cause that it is.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,15 @@
+{{ range .Site.Params.education.list }}
+  <h4 style="text-decoration: underline;">{{ .degree }}</h4>
+  <p {{ if .thesis_title }}class="mb-0"{{ end }}>
+    {{ .dates }} &middot; {{ .college }}
+  </p>
+  {{ if .thesis_url }}
+    <p>
+      <b>Idea:</b> {{ .thesis_title }}<br>
+      <b>Detailed Description: </b>
+      <a href="{{.thesis_url}}" target="_blank"><i>Click here</i></a>
+    </p>
+  {{ else }}
+    <p><b>Idea: </b>{{ .thesis_title }}</p>
+  {{ end }}
+{{ end }}

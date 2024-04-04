@@ -1,0 +1,200 @@
+baseURL: https://aafu.pages.dev/
+languageCode: en-us
+build:
+  writeStats: true
+params:
+  title: aafu theme
+  author: Sari Itani
+  description: Personal Porftolio
+  theme:
+    mainTheme: dark
+    showAttribute: true
+    singlePage: false
+  favicons:
+    use: true
+    metas: |2-
+              <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+              <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+              <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+              <link rel="manifest" href="site.webmanifest">
+              <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
+              <link rel="shortcut icon" href="favicon.ico">
+
+  profile:
+    name: "Sari Itani"
+    tagline: Computer Engineer - AI expertise
+    location: "Aramoun, Lebanon"
+    email: sariitani101@gmail.com
+    photo: pfp.jpg
+  social:
+    title: Links
+    list:
+      - icon: fab fa-linkedin-in
+        url: "https://www.linkedin.com/in/sari-itani-868481200"
+        title: LinkedIn
+      - icon: fab fa-github
+        url: "https://www.github.com/SariItani"
+        title: GitHub
+      - icon: fab fa-orcid
+        url: "https://orcid.org/0009-0007-7886-510X"
+        title: Orcid
+      - icon: fab fa-whatsapp
+        url: "https://wa.link/a9h48p"
+        title: Whatsapp
+      - icon: fas fa-envelope
+        title: Email
+        url: "mailto:sariitani101@gmail.com"
+  showInAccordion:
+    - item: aboutme
+      expand: true
+    - item: experience
+    - item: education
+    - item: publication
+    - item: project
+    - item: proposals
+    - item: skill
+    - item: hobby
+  aboutme:
+    title: About Me
+    icon: fas fa-user
+    description: Highly motivated and results-oriented Computer Engineer, specialized in Artificial Intelligence and passionate about backend development, constantly seeking a challenging position to leverage my technical expertise and contribute to intelligent and efficient computer systems.
+  experience:
+    title: Leadership & Management
+    icon: fas fa-briefcase
+    list:
+      - position: President
+        dates: 2023 - *Present*
+        company: ARC & IEEE-CIS
+        url: "https://www.instagram.com/bau_arc/"
+        details: |1-
+          Check out my blog post on [strategies to run ARC and IEEE-CIS](/blog/post_3/)
+          - *Launch, March 2023*: The group who worked on the "Cafeteria Madness" game formed the AI and Robotics club (ARC) committee and showcased the game during launch and accepted applications for people to start joining the ARC club.
+          - *Engineering Day, May 2023*: We got recognised as an established club by the faculty of engineering by receiving a certificate.
+          - *Orientation, August 2023*: We showcased, in a short presentation, What ARC is and Why students would want to join ARC, accepting registration applications from the new first year students.
+          - *Booth, September 2023*: We Annuonced our main plans for the semester in the form of a road map, showcased What ARC is and Why students would want to join, and accepted new registration applications.
+          - *AI and Robotics Debate & Trivia day, October 2023*: It was a failed attempt to start weekly or monthly club meetings, we debated a broad pool of topics and voted for those who got a point and in the end announced which side wins for each topic.
+          - *Ethical Hacking, October 2023*: We collabed with Semicolon-Academy to introduce students to the area of cybersecurity in an interactive seminar.
+          - *ROS2, November 2023*: We collabed with Eng. Abboud Hayek to introduce students to the area of robotics and showcase robotics development with ROS2 framework.
+          - *NLP, November 2023*: We collabed with Eng. Lara Wehbe to introduce students to the area of NLP in AI and showcase the process of an LLM.      
+          - *Innovation, December 2023*: We collabed with DR. Ahmad El Hajj to spread awareness on the importance of innovating in our university years especially as engineering students.
+          - *Huawei HCAI, December 2023*: Logistics Management ofthe program.
+          - *Launch, April 2024*: ARC club was expanding and required financial support for upcoming ambitious projects, so ARC became IEEE Computational Intelligence Society (CIS) student branch.
+          - *Zaka/Beirut AI Workshop, May 2024*: IEEE Computational Intelligence Society collaborated with Zaka AI to deliver an extensive workshop entitled "AI development: from university knowledge to workplace skills", which is self explanatory, introducing the tech stacks and skills and workflows that an AI engineer does on the job.
+      - position: Co-founder
+        dates: 2023 - *Present*
+        company: LOOP
+        url: "https://www.instagram.com/theloop.lb"
+        details: |1-
+          - Loop is an unofficial alliance of all student bodies in universities related to computer majors
+          - Devised my previous [strategies](/blog/post_3/) from ARC & IEEE-CIS to help organize 2 nationwide events: a game jam on April 20th 2024, and an AI hackathon during the fall semester of 2024-2025
+          - Held meetings and jotted down meeting minutes discussing the scalability and potential of LOOP's events and what sort of outreach and success LOOP could opt for.
+  education:
+    title: Competitions
+    icon: fas fa-medal
+    list:
+      - degree: LAU IEEE-Robotics D.A.R.E
+        college: Lebanese American University
+        dates: April 27, 2024
+        thesis_title: "Developing a cheap yet efficient wildfire surveillance system to quickly scan the area and generate a priority zone that would instruct fire fighters to most optimally stop the fire, based on aerial images and environmental data and critical conditions such as presence of casualties and human residence, hence saving time and lives."
+        # thesis_url: "#"
+      - degree: LAU Case Competiton
+        college: Lebanese American University
+        dates: June 9, 2023
+        thesis_title: "''Revolutionizing Lebanese Tourism: Embrace the Hunt Campaign'' Spearheaded the development and execution of an AR-enabled scavenger hunt campaign aimed at promoting Lebanon as a top travel destination, and Orchestrated a multi-channel marketing strategy and collaborated with diverse stakeholders to drive engagement and stimulate economic growth through immersive tourism experiences."
+        thesis_url: "https://drive.google.com/file/d/1uS6bXf34LMHY2P91r6vDBR12HBPhoJB8/view?usp=sharing"
+      - degree: Huawei ICT-AI
+        college: Huawei (MENA)
+        dates: February 2024
+        thesis_title: "Language translation and voice generation have seen significant advancements, but current systems often lack the ability to capture the subtleties of human speech. This project proposes a solution that combines transformer-based language translation models with voice cloning techniques to deliver a more immersive and authentic translation experience. By utilizing the power of cloud-based AI platforms, real-time audio interception, and deep learning algorithms, our system aims to generate voiceovers that mirror the speaker's tone, mood, and pitch in the target language. With a user- friendly interface and a focus on maintaining privacy and ethical standards, our solution addresses the limitations of existing automatic translation systems and strives to provide a professional and engaging communication tool."
+        thesis_url: "https://github.com/Leboweeb/Scoltia-Realtime-Voice-Translation-for-Teams"
+      - degree: NeurIPS 2023 Machine Unlearning
+        college: Kaggle
+        dates: Novemeber 2023
+        thesis_title: "The main objective of this competition is to develop an algorithm that takes an AI model and a forget set, part of the training set, leaving behind the retain set, and returns an AI model that’s as closely accurate as the original given model, but the effect of the forget set will be deprecated so that its influence is almost null, meaning that the accuracy on the forget set should approach zero."
+        thesis_url: "https://drive.google.com/file/d/145EBI-Z9WfegppMqmYXoVa3J0WiSFju8/view?usp=drive_link"
+  publication:
+    title: Freelance
+    icon: fas fa-handshake
+    format:
+      - date
+      - title
+      - authors
+      - journal
+    types:
+      - Journal Articles
+      - Proceedings
+    list:
+      - title: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        authors: "F Last, F Second, P secondary"
+        date: "2018"
+        journal: "Journal of Field 52 (16), 9033-9044"
+        url: "#"
+        type: Journal Articles
+      - title: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        authors: "F Last, F Second, P secondary"
+        date: "2018"
+        journal: "Journal of Field 52 (16), 9033-9044"
+        url: "#"
+        type: Journal Articles
+      - title: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        authors: "F Last, F Second, P secondary"
+        date: "2018"
+        journal: "Journal of Field 52 (16), 9033-9044"
+        url: "#"
+        type: Proceedings
+  project:
+    title: Projects
+    icon: fas fa-project-diagram
+    list:
+      - title: Project 1
+        url: "#"
+        description: Description of the project
+      - title: Project 2
+        url: "#"
+        description: Description of the project
+      - title: Project 3
+        url: "#"
+        description: Description of the project
+      - title: Project 4
+        url: "#"
+        description: Description of the project
+  proposals:
+    title: Proposals & Research
+    icon: fas fa-tasks
+    list:
+      - title: Project 1
+        url: "#"
+        description: Description of the project
+      - title: Project 2
+        url: "#"
+        description: Description of the project
+      - title: Project 3
+        url: "#"
+        description: Description of the project
+      - title: Project 4
+        url: "#"
+        description: Description of the project
+  skill:
+    title: Skills
+    panelId: skill-panel
+    icon: fas fa-laptop-code
+    list:
+      - skill: "Skill 1, Skill 2"
+        skillrating: 90
+      - skill: Skill 3
+        skillrating: 80
+      - skill: Skill 4
+        skillrating: 50
+  hobby:
+    title: Music
+    icon: fas fa-music
+    list:
+      - hobby: file1
+      - hobby: file2
+      - hobby: file3
