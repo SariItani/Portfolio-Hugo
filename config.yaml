@@ -86,7 +86,7 @@ params:
         url: "https://www.instagram.com/theloop.lb"
         details: |1-
           - Loop is an unofficial alliance of all student bodies in universities related to computer majors
-          - Devised my previous [strategies](/blog/post_3/) from ARC & IEEE-CIS to help organize 2 nationwide events: a game jam on April 20th 2024, and an AI hackathon during the fall semester of 2024-2025
+          - Devised my previous [strategies](./blog/post_3/) from ARC & IEEE-CIS to help organize 2 nationwide events: a game jam on April 20th 2024, and an AI hackathon during the fall semester of 2024-2025
           - Held meetings and jotted down meeting minutes discussing the scalability and potential of LOOP's events and what sort of outreach and success LOOP could opt for.
   education:
     title: Competitions
