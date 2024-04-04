@@ -17,21 +17,35 @@ So it’s all about law, order, for the sake of continuity and sustainability. T
 
 To begin with I would like to state the mission and vision and the motivation of the society. It is very clear that students have a lack of motivation, lack of belonging, and lack of purpose towards the faculty of engineering and the degree that they’re building up their lives with and that there’s really no passion anymore, which results in barely studying and barely engaging in the community and the phenomenon where students barely even try to succeed and produce zero effort in order to succeed, and so the missing piece of the puzzle is being a part of a community that represents a home base for all engineers where there is support for everyone, the perfect type of support for an engineer in an engineering school in a highly reputed university that always aims to grow and grow and grow.
 
+![image info](../../images/img3.jpg)
+
 Our mission and motivation is to provide this community and fill in the gaps that extend demotivated students to their roads of success through paths of belonging and support.
 
 And our vision is a community at BAU where both community and faculty driven events are hosted by the committee of students for the rest of the students in the electrical and computer engineering department, so this would include campus life events like game days, media events like podcasts and news magazines related to the BAU campus life and the tech industry and the research world, social platforms like discord (supporting media literacy in the 21st century and how to manage a presence on the internet and all that like whom to trust whom not to trust where is good information from whom to follow how to pick up on trends how to show an impact as a creator etc...), seminars, workshops, webinars, competitions, etc…
+
+![image info](../../images/img4.jpg)
 
 This is the mission, vision, goal, etc… so what about the strategy? How is this going to continue for years and years to come? This brings me to discuss the sorts of jobs and tasks required to maintain such a community.
 
 First of all, if we want any event, we need an event planning setup which includes members who do active social media coverage and engagement with companies and NGOs and stuff like that, continuously seeking out collaboration opportunities and looking at data analytics of current trends and listening to students’ suggestions and feedback. This should in my opinion be a weekly job, for two people at least, done at least once a week, always seeking out for people on Linkedin, Instagram, Discord (basically all over the media), and looking out for current trends and looking at data concerning these trends to anticipate what sort of events we should plan and where to look for people to host in our events taking into consideration students’ feedback as a given to begin the search.
 
+![image info](../../images/img5.jpg)
+
 Second of all, we need a money coordinator who would work in conjunction with the event planning team and manage the sponsors and treasury process and innovate ways where we can legally make money for the society treasure box in the university in compliance with the university rules and regulations. They would manage the money-logistics of the events in short and will actively reach out to sponsors for big events with the help of the faculty of course. There is no specific routine for this job as it is only required to be done when necessary so this will be an active and crucial role; though it could be counted with the event planners, I would still like to split them since the money manager(s) (I suggest only 1 person to be the treasurer but more people could be discussed I’m open to that discussion) may shift their focus from outside involvement (public relations) to an internal aspect and this would lead to bad coordination.
+
+![image info](../../images/img6.jpg)
 
 Third of all we need a social media team to manage and perform social media engagement outlook. This includes a couple of designers, video editors, and social media platform managers, so they would generate posters and logos and post on social media and engage with the community with posts and compile media taken during the events and edit them to show our outlook to the public and maintain an active online presence so we are always relevant and anticipated to keep going and obtain students feedback and engage with the community and this is especially good for getting sponsors and motivating upcoming event and mainstreaming the society in our target audience field. This role is active and should each and ever day, even within the university hours, be engaged in the job, and requires impulsive creativity and teamwork and trust. This is why I suggest a bigger team, like 3 or 4 people altogether in that department.
 
+![image info](../../images/img7.png)
+
 Fourth of all, we’re going to need a logistics manager who would make sure we have the capacity to host the events, so from online webinars to scheduling and reserving rooms and stuff like that. They would also organize reports and take notes and basically log the internal activity of the society in neatly compiled reports. This is also a job that requires only to work when necessary so we can’t decide on a routinely schedule, same thing as the treasurer.
 
+![image info](../../images/img8.png)
+
 Finally, we need an executive team. Their role is to know and incorporate management concepts. This means they should conduct meetings, agree to tasks being conducted as proposed by the entire team which also means monitoring everyone, coordinating the work, conducting meetings, coming up with backup plans when needed which requires a good and wide reputation internally in the university and trust as well. They are expected to know everything going on in the process of the society and to maintain this process and to refine it. They are also supposed to motivate the society members when there are issues regarding pressure. This will mean there is a society chair and vice chair and coordinator/secretary. So this accounts for 3 managerial positions but are the most delectate, and are simply required to be constantly active more than anyone else in the society.
+
+![image info](../../images/img9.png)
 
 ANY SORT OF DIS-COOPERATION AND POINTING FINGERS AT ONE ANOTHER WILL NOT BE TOLERATED AND WILL LEAD TO KICKING OUT OF THE COMMITTEE!
 
