@@ -124,9 +124,9 @@ params:
         url: "https://sariitani.pythonanywhere.com/"
         description: A business management website for YMY, encapsulating their management processes and automated data entry with Twilio API for WhatsApp Business. It covers a rich backend that 
         type: Website
-      - title: Bac2 LS Biology Assistant
+      - title: BioGenie
         url: "https://srisri.pythonanywhere.com/"
-        description: A 
+        description: A nice website with an easy user interface, and a playful and interactive frontend design, integrated with a chatbot using OpenAI API that helps assess Lebanese LS students's biology knowledge by answering MCQ questions, provoding all the necessary materials to improve.
         type: Website
       - title: Musical Instruments HTML views
         url: "https://github.com/SariItani/Music-Information-HTML/"

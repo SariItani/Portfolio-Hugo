@@ -1,5 +1,9 @@
 {{ range .Site.Params.education.list }}
-  <h4 style="text-decoration: underline;">{{ .degree }}</h4>
+{{ if .thesis_url}}
+  <h4 style="text-decoration: underline;"><a href="{{.thesis_url}}" target="_blank">{{ .degree }}</a></h4>
+{{ else }}
+<h4 style="text-decoration: underline;">{{ .degree }}</h4>
+{{end}}
   <p {{ if .thesis_title }}class="mb-0"{{ end }}>
     {{ .dates }} &middot; {{ .college }}
   </p>
