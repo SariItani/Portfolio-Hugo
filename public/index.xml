@@ -15,12 +15,5 @@
       <guid>http://localhost:1313/blog/post_3/</guid>
       <description>My strats to run ARC &amp;amp; IEEE-CIS &amp;amp; LOOP or any other club The Wiki definition of an Institution is “a humanly devised structure of rules and norms that shape and constrain individual behavior. All definitions of institutions generally entail that there is a level of persistence and continuity”. So it’s all about law, order, for the sake of continuity and sustainability. This is what this is about, creating rules and regulations for maintaining the society for the mission and cause that it is.</description>
     </item>
-    <item>
-      <title>Demo Page</title>
-      <link>http://localhost:1313/blog/markdown_syntax/</link>
-      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/markdown_syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
