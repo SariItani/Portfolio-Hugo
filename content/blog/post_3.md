@@ -45,7 +45,7 @@ Fourth of all, we’re going to need a logistics manager who would make sure we 
 
 Finally, we need an executive team. Their role is to know and incorporate management concepts. This means they should conduct meetings, agree to tasks being conducted as proposed by the entire team which also means monitoring everyone, coordinating the work, conducting meetings, coming up with backup plans when needed which requires a good and wide reputation internally in the university and trust as well. They are expected to know everything going on in the process of the society and to maintain this process and to refine it. They are also supposed to motivate the society members when there are issues regarding pressure. This will mean there is a society chair and vice chair and coordinator/secretary. So this accounts for 3 managerial positions but are the most delectate, and are simply required to be constantly active more than anyone else in the society.
 
-![image info](../../images/img9.png)
+![image info](../../images/img9.jpg)
 
 ANY SORT OF DIS-COOPERATION AND POINTING FINGERS AT ONE ANOTHER WILL NOT BE TOLERATED AND WILL LEAD TO KICKING OUT OF THE COMMITTEE!
 
