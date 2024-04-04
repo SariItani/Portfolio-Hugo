@@ -132,9 +132,9 @@ params:
         url: "https://github.com/SariItani/Music-Information-HTML/"
         description: A basic freelance HTML page for a fundamentals course final based in Canada. The aim was to grasp most of the HTML features.
         type: Website
-      - title: Project 4
+      - title: Nollini (discontinued)
         url: "#"
-        description: Description of the project
+        description: An Ecommerce website that hooks a target market of Lebanese employees based in Lebanon with copy-A european distributers through submitting and showcasing their products on one central hub.
   project:
     title: Projects
     icon: fas fa-project-diagram
