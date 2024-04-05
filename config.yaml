@@ -92,7 +92,7 @@ params:
     title: Competitions
     icon: fas fa-medal
     list:
-      - degree: LAU IEEE-Robotics D.A.R.E
+      - degree: LAU IEEE-Robotics D.A.R.E [Team Scotlia]
         college: Lebanese American University
         dates: April 27, 2024
         thesis_title: "Developing a cheap yet efficient wildfire surveillance system to quickly scan the area and generate a priority zone that would instruct fire fighters to most optimally stop the fire, based on aerial images and environmental data and critical conditions such as presence of casualties and human residence, hence saving time and lives."
@@ -101,7 +101,7 @@ params:
         dates: June 9, 2023
         thesis_title: "''Revolutionizing Lebanese Tourism: Embrace the Hunt Campaign'' Spearheaded the development and execution of an AR-enabled scavenger hunt campaign aimed at promoting Lebanon as a top travel destination, and Orchestrated a multi-channel marketing strategy and collaborated with diverse stakeholders to drive engagement and stimulate economic growth through immersive tourism experiences."
         thesis_url: "https://drive.google.com/file/d/1uS6bXf34LMHY2P91r6vDBR12HBPhoJB8/view?usp=sharing"
-      - degree: Huawei ICT-AI
+      - degree: Huawei ICT-AI [Team Scoltia]
         college: Huawei (MENA)
         dates: February 2024
         thesis_title: "Language translation and voice generation have seen significant advancements, but current systems often lack the ability to capture the subtleties of human speech. This project proposes a solution that combines transformer-based language translation models with voice cloning techniques to deliver a more immersive and authentic translation experience. By utilizing the power of cloud-based AI platforms, real-time audio interception, and deep learning algorithms, our system aims to generate voiceovers that mirror the speaker's tone, mood, and pitch in the target language. With a user- friendly interface and a focus on maintaining privacy and ethical standards, our solution addresses the limitations of existing automatic translation systems and strives to provide a professional and engaging communication tool."
@@ -186,8 +186,7 @@ params:
         description: Created, in a team of 3, a CLI Java game that utliizes the minmax algorithm to play a board game with a human player
       - title: Min Lanes Java CLI Game
         url: "https://github.com/SariItani/Minimum-Lanes-CLI-Game"
-        description: This is a little game made during Murex interview prep to boost my DSA Data Structures and ALgorithms knowledge, the objective is to find the minimum lane switches to get to the other side.
-      
+        description: This is a little game made during Murex interview prep to boost my DSA Data Structures and ALgorithms knowledge, the objective is to find the minimum lane switches to get to the other side. The CLI is designed to where you can easily visualise the lanes and understand the minimum route chosen by the algorithm.
   proposals:
     title: Proposals & Research
     icon: fas fa-tasks
