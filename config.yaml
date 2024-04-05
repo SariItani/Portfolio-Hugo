@@ -162,7 +162,10 @@ params:
       - title: Cifar10 Resnet18 Image Classification 
         url: "https://github.com/SariItani/Cifar10Resner18"
         description: Training an AI model to classify images from the Cifar10 dataset with Resnet18 architecture.
-      - title: sa
+      - title: ARC website
+        url: "#"
+        description: as
+      - title: NVIDIA Sketch API with GUI
         url: "#"
         description: as
   proposals:
