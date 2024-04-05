@@ -176,7 +176,7 @@ params:
         description: Created a XOR and rotating key based encryption algorithm that decreases probability of cracking the password *exponentially* in powers of 2, and implemented it in a nice looking, ascii-art based CLI application that is built with Java so it would be available on any device. The password database is even made with a custom .dat file to avoid sneaky decryptions from hackers.
       - title: JavaScript Learning Series
         url: "https://github.com/SariItani/JS-Peer-Learning-Files"
-        description: the
+        description: This is a series of projects done with peers in the aim of learning JavaScript. So it is true that these projects are relatively simple and small scaled, but they aren't just a bunch of copied and pasted tutorials, as there is a little whiff of creativity and imagination in each single one of them.
   proposals:
     title: Proposals & Research
     icon: fas fa-tasks
