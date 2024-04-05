@@ -255,19 +255,19 @@ params:
         skillrating: 50
       - skill: Flask
         skillrating: 50
-      - skill: Skill 4
+      - skill: Skill
         skillrating: 50
-      - skill: Skill 4
+      - skill: Skill
         skillrating: 50
-      - skill: Skill 4
+      - skill: Skill
         skillrating: 50
-      - skill: Skill 4
+      - skill: Skill
         skillrating: 50
-      - skill: Skill 4
+      - skill: Skill
         skillrating: 50
-      - skill: Skill 4
+      - skill: Skill
         skillrating: 50
-      - skill: Skill 4
+      - skill: Skill
         skillrating: 50
   hobby:
     title: Music
