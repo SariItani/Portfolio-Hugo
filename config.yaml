@@ -68,7 +68,7 @@ params:
         url: "https://www.instagram.com/bau_arc/"
         details: |1-
           Check out my blog post on [strategies to run ARC and IEEE-CIS](./blog/post_3/)
-          - *Launch, March 2023*: The group who worked on the "Cafeteria Madness" game formed the AI and Robotics club (ARC) committee and showcased the game during launch and accepted applications for people to start joining the ARC club.
+          - *Launch, March 2023*: The group who worked on the ["Cafeteria Madness"](https://github.com/SariItani/BAU-Engineering-Day) game formed the AI and Robotics club (ARC) committee and showcased the game during launch and accepted applications for people to start joining the ARC club.
           - *Engineering Day, May 2023*: We got recognised as an established club by the faculty of engineering by receiving a certificate.
           - *Orientation, August 2023*: We showcased, in a short presentation, What ARC is and Why students would want to join ARC, accepting registration applications from the new first year students.
           - *Booth, September 2023*: We Annuonced our main plans for the semester in the form of a road map, showcased What ARC is and Why students would want to join, and accepted new registration applications.
@@ -96,7 +96,6 @@ params:
         college: Lebanese American University
         dates: April 27, 2024
         thesis_title: "Developing a cheap yet efficient wildfire surveillance system to quickly scan the area and generate a priority zone that would instruct fire fighters to most optimally stop the fire, based on aerial images and environmental data and critical conditions such as presence of casualties and human residence, hence saving time and lives."
-        # thesis_url: "#"
       - degree: LAU Case Competiton
         college: Lebanese American University
         dates: June 9, 2023
