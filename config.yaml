@@ -196,13 +196,22 @@ params:
         description: In a planned [ARC](https://www.instagram.com/bau_arc/) event, an obstacle course is randomly generated, and 2 teams are supposed to compete against one another by building a robot and training its movements using reinforcement learning, or by hardcoding its movements, so that the controls are managed by ROS2 operating system that will run the Genetic Algorithm on both team's robots and attempt to pass the obstacle course fair and square. This experience is proposed to be gamified using Unity and published on [itch.io](https://itch.io).
       - title: Water Waste Management
         # url: "#"
-        description: In a collab between ARC and the Chemical Engieering Student Society, our project aim was to 
-      - title: Project 3
-        url: "#"
-        description: Description of the project
-      - title: Project 4
-        url: "#"
-        description: Description of the project
+        description: In a collab between ARC and the Chemical Engieering Student Society, our project aim is to implement state-of-the-art techniques for water waste management systems using embedded systems and microcontrollers like PIC61F877A with the appropriate sensors provided by the chemical students, based on the environment variables and project scope and budget. It was discontinued however due to lack of interest from the students in the clubs.
+      - title: Brain Music
+        url: "https://drive.google.com/drive/folders/17zmYDjguG7fT8q_rgpKbu048nG5bgfev?usp=drive_link"
+        description: "Imagine this: You wear a hemlet, and everyone aroud you would hear music from your head! The project is an EEG-scanner that interprets EEG signals into music through MIDI files. It was proposed but rejected since it does not have academic importance in the field of engineering, as compared to a mental health application of the same helmet."
+      - title: Electronically Encrypted Embedded Systems
+        url: "https://drive.google.com/drive/folders/1JR-C-fdLnz37I64Z1RYJkh2ST22CEt87?usp=drive_link"
+        description: Reverse Engineers can extract military secret level code from embedded systems found on military weapons left in the battle field. Thus, We can devise, using convolution, an electronically encrypted embedded system that would explode if unauthorised access was attempted.
+      - title: Smart Transportation System with Progressive Web Application
+        url: "https://drive.google.com/drive/folders/1MsCoo2Wf2oOoV4fKOoUl9QEd1mGQemNf?usp=drive_link"
+        description: See my [blog post](./blog/post_2) for a detailed presentation about the project description.
+      - title: IOT Management Framework
+        url: "https://drive.google.com/file/d/1m_3gZph3yMOTF1PdMj5Res9I0_BkOkup/view?usp=drive_link"
+        description: I proposed a cloud-based servers-as-a-service business framework, which was discontinued since i found this [business](https://particle.io/) that already implemented my idea. Check it out for more details.
+      - title: 
+        url: ""
+        description: 
   skill:
     title: Skills
     panelId: skill-panel
