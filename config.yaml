@@ -118,6 +118,7 @@ params:
       - Website
       - AI
       - Data Science
+      - GUI
     list:
       - title: YMY Management System
         url: "https://sariitani.pythonanywhere.com/"
@@ -146,6 +147,9 @@ params:
       - title: Parkinsons Disease Data Acquisition and Preprocessing
         type: Data Science
         description: "Helped with devising a PhD student's research on parkinsons' disease, by providing state-of-the-art datasets for AI training freely available on the internet, for the follwing data types 'EEG', 'EMG', 'X and Y for leg movement', 'voice', and 'Handwriting'"
+      - title: Python GUI Immigration Management System
+        type: GUI
+        description: "My first freelance project. Within a deadline of 3 days, I got a university student's request to create a GUI application with TKinter, and i accepted with no prior knowledge. Within 2 days, the GUI application was complete and up to standards in regard to security and database management. This demonstrates my willingness to take risks and eagerness to learn new things and ability to manage my time and flexibility with adaptation and working in an agile development environment."
   project:
     title: Projects
     icon: fas fa-project-diagram
@@ -177,6 +181,13 @@ params:
       - title: JavaScript Learning Series
         url: "https://github.com/SariItani/JS-Peer-Learning-Files"
         description: This is a series of projects done with peers in the aim of learning JavaScript. So it is true that these projects are relatively simple and small scaled, but they aren't just a bunch of copied and pasted tutorials, as there is a little whiff of creativity and imagination in each single one of them.
+      - title: Java CLI MinMax Game (Discontinued)
+        url: "https://github.com/SariItani/Java-MinMax-Game--discontinued-"
+        description: Created, in a team of 3, a CLI Java game that utliizes the minmax algorithm to play a board game with a human player
+      - title: Min Lanes Java CLI Game
+        url: "https://github.com/SariItani/Minimum-Lanes-CLI-Game"
+        description: This is a little game made during Murex interview prep to boost my DSA Data Structures and ALgorithms knowledge, the objective is to find the minimum lane switches to get to the other side.
+      
   proposals:
     title: Proposals & Research
     icon: fas fa-tasks
