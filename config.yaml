@@ -154,21 +154,24 @@ params:
         url: "https://github.com/SariItani/BAU-Engineering-Day"
         description: The player does not need a controller to play. An AI model can scan his hand gestrues and map regular patterns to in game player-environment interactions. Demonstrated in the game 'Cafeteria Calamity'. A team of 4, we made everything, from art to music to code.
       - title: Recipe Sharing Platform
-        # url: "#"
+        url: "https://github.com/SariItani/BAUSpring2024SoftwareEngProject"
         description: The project entails the development of a recipe sharing platform that aims to simplify the process of meal planning and recipe discovery for users. This platform can potentially be extended to mobile devices, catering to a wider audience and enhancing accessibility. The primary objective is to provide users with a user-friendly interface where they can easily search for recipes based on ingredients, preferences, dietary requirements, and available kitchen equipment. Additionally, the platform will include features for recommndations uisng AI recommender systems and tracking health and nutrition, such as calorie intake monitoring, through an intuitive dashboard design.
       - title: Better Moodle
         url: "https://github.com/StunningSamuel/BetterMoodle"
         description: Moodle platform can be quite challanging to use, and this difficulty becomes a real issue that all BAU students suffer from during online course reistration. The issue is that the servers at the university are outdated and cannot handle the traffic. Thus, Better Moodle is a mobile flutter app that provides utilities to work aroudn this issue, such as regular caches from the moodle website, like schedule and course offering, notifications when anything is posted on moodle website, and automation services like automated registration with course code list input.
       - title: Cifar10 Resnet18 Image Classification 
         url: "https://github.com/SariItani/Cifar10Resner18"
-        description: 
+        description: Training an AI model to classify images from the Cifar10 dataset with Resnet18 architecture.
+      - title: sa
+        url: "#"
+        description: as
   proposals:
     title: Proposals & Research
     icon: fas fa-tasks
     list:
-      - title: Project 1
-        url: "#"
-        description: Description of the project
+      - title: Robot Mania
+        # url: "#"
+        description: In a planned [ARC](https://www.instagram.com/bau_arc/) event, an obstacle course is randomly generated, and 2 teams are supposed to compete against one another by building a robot and training its movements using reinforcement learning, or by hardcoding its movements, so that the controls are managed by ROS2 operating system that will run the Genetic Algorithm on both team's robots and attempt to pass the obstacle course fair and square. This experience is proposed to be gamified using Unity and published on [itch.io](https://itch.io).
       - title: Project 2
         url: "#"
         description: Description of the project
