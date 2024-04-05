@@ -248,47 +248,51 @@ params:
     panelId: skill-panel
     icon: fas fa-laptop-code
     list:
-      - skill: "Python, Java, C"
+      - skill: "Top Programming Languages: Python, Java, C"
         skillrating: 90
-      - skill: "Flask, HTML, CSS, Bootstrap"
-        skillrating: 50
+      - skill: "Top WebDev Skills: Django/Flask, HTML, CSS, Bootstrap"
+        skillrating: 80
       - skill: JavaScript
         skillrating: 50
-      - skill: "C#, Unity Engine"
-        skillrating: 50
-      - skill: "Raspberry Pi, Assembly, Embedded Systems, Arduino"
+      - skill: Linux
+        skillrating: 70
+      - skill: Git
+        skillrating: 70
+      - skill: "AI: TensorFlow, PyTorch, Mindspore, Scikit-learn, Kaggle"
+        skillrating: 80
+      - skill: MLflow
+        skillrating: 60
+      - skill: "Data Science: Pandas, Matplotlib, Numpy"
+        skillrating: 80
+      - skill: "Embedded: Raspberry Pi, Assembly, Arduino"
+        skillrating: 60
+      - skill: "Game Dev: C#, Unity Engine"
         skillrating: 50
       - skill: ROS2
-        skillrating: 50
-      - skill: Linux
-        skillrating: 50
+        skillrating: 40
       - skill: Docker
-        skillrating: 50
-      - skill: Git
-        skillrating: 50
+        skillrating: 40
   softskill:
     title: "Soft Skills"
     panelId: skill-panel2
     icon: fas fa-puzzle-piece
     list:
-      - skill: Project Management
-        skillrating: 50
       - skill: Communication Skills & Stakeholder Communication
-        skillrating: 50
+        skillrating: 80
       - skill: Leadership Skills
-        skillrating: 50
+        skillrating: 95
       - skill: Technical Aptitute
-        skillrating: 50
+        skillrating: 70
       - skill: Project Management & Organization
-        skillrating: 50
+        skillrating: 90
       - skill: Strategic Thinking
-        skillrating: 50
+        skillrating: 100
       - skill: Time Management
-        skillrating: 50
+        skillrating: 85
       - skill: "Work Breakdown Structure (WBS) Development"
-        skillrating: 50
+        skillrating: 70
       - skill: Teamwork
-        skillrating: 50
+        skillrating: 80
   hobby:
     title: Music
     icon: fas fa-music
