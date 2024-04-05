@@ -165,8 +165,14 @@ params:
       - title: ARC website
         url: "https://github.com/Leboweeb/Engineering-Day-Website"
         description: ARC needed automated processing and various other features like information and blogs and links and stories and media etc... You get it, just what any club needs, a centralized server running managing the process of running the ARC club fully.
-      - title: NVIDIA Sketch API with GUI
-        url: "#"
+      - title: Gym Management System
+        url: "https://github.com/SariItani/gym-manager"
+        description: A Solo project i made to learn Django and Flask, and web development in general. This website manages the gym operations fully, from its employees to its clients. To employees, it is a business management system, but to the users it is simply an ecomerce/dashboard analytics web application.
+      - title: NVIDIA Canvas API with GUI
+        url: "https://github.com/SariItani/Sketching-Website-engday"
+        description: The university owns a super computer capable of running the NVIDIA Canvas app, but most students weren't allowed in the lab without priviliges like being a computer engineering student. Thus, in a due, me and my best friend created an API that links university students on the same network as the Engineering Faculty Labs to the NVIDIA Canvas application found on the super computer, through a 
+      - title: CLI Java Password Manager
+        url: "https://github.com/SariItani/Password-Manager-Java-App"
         description: as
   proposals:
     title: Proposals & Research
