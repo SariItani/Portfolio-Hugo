@@ -53,6 +53,7 @@ params:
     - item: project
     - item: proposals
     - item: skill
+    - item: softskill
     - item: hobby
   aboutme:
     title: About Me
@@ -243,31 +244,50 @@ params:
         url: "https://drive.google.com/file/d/1FbVjLm7o5ZUf2P4RZ0q9PEi2byzrDDyh/view?usp=drive_link"
         description: This [paper](https://drive.google.com/file/d/1FbVjLm7o5ZUf2P4RZ0q9PEi2byzrDDyh/view?usp=drive_link) explains everything in depth. Published in conference EAAAI 2024, Greece.
   skill:
-    title: Skills
+    title: "Technical Skills"
     panelId: skill-panel
     icon: fas fa-laptop-code
     list:
-      - skill: Python
+      - skill: "Python, Java, C"
         skillrating: 90
-      - skill: Java
-        skillrating: 80
-      - skill: C
+      - skill: "Flask, HTML, CSS, Bootstrap"
         skillrating: 50
-      - skill: Flask
+      - skill: JavaScript
         skillrating: 50
+      - skill: "C#, Unity Engine"
+        skillrating: 50
+      - skill: "Raspberry Pi, Assembly, Embedded Systems, Arduino"
+        skillrating: 50
+      - skill: ROS2
+        skillrating: 50
+      - skill: Linux
+        skillrating: 50
+      - skill: Docker
+        skillrating: 50
+      - skill: Git
+        skillrating: 50
+  softskill:
+    title: "Soft Skills"
+    panelId: skill-panel2
+    icon: fas fa-puzzle-piece
+    list:
       - skill: Project Management
         skillrating: 50
-      - skill: Communication Skills
+      - skill: Communication Skills & Stakeholder Communication
         skillrating: 50
-      - skill: Stakeholder Communication
+      - skill: Leadership Skills
         skillrating: 50
       - skill: Technical Aptitute
         skillrating: 50
-      - skill: Skill
+      - skill: Project Management & Organization
         skillrating: 50
-      - skill: Skill
+      - skill: Strategic Thinking
         skillrating: 50
-      - skill: Skill
+      - skill: Time Management
+        skillrating: 50
+      - skill: "Work Breakdown Structure (WBS) Development"
+        skillrating: 50
+      - skill: Teamwork
         skillrating: 50
   hobby:
     title: Music

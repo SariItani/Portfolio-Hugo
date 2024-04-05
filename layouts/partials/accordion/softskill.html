@@ -1,0 +1,16 @@
+<script>
+  let skillPanel = document.querySelector("#skill-panel2")
+    .previousElementSibling;
+  skillPanel.addEventListener("click", function() {
+    let skillBars = document.querySelectorAll("#skill-percent");
+    skillBars.forEach(elem => {
+      elem.style.width = elem.classList[0];
+    });
+  });
+</script>
+{{ range.Site.Params.softskill.list }}
+<code>{{ .skill }}: {{ .skillrating }}%</code>
+<div class="w-100 mt-1 mb-3 border border-black dark:border-gray-300 rounded" style="height: 1.25rem;">
+  <div id="skill-percent" class="{{ .skillrating }}% bg-blue-500 dark:bg-green-700 h-full rounded" style="width: 0; transition: all 0.5s;"></div>
+</div>
+{{ end }}
