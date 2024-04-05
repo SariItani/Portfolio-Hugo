@@ -250,7 +250,7 @@ params:
     list:
       - skill: "Top Programming Languages: Python, Java, C"
         skillrating: 90
-      - skill: "Top WebDev Skills: Django/Flask, HTML, CSS, Bootstrap"
+      - skill: "Top WebDev Skills: Django/Flask, HTML, CSS, Bootstrap, Hugo"
         skillrating: 80
       - skill: JavaScript
         skillrating: 50
@@ -297,6 +297,15 @@ params:
     title: Music
     icon: fas fa-music
     list:
-      - hobby: file1
-      - hobby: file2
-      - hobby: file3
+      - hobby: Video
+        url: "https://www.youtube.com/watch?v=IEhQeraOO_0"
+      - hobby: YouTube Channel
+        url: "https://www.youtube.com/@sirsri7513"
+      - hobby: BandLab Project
+        url: "https://www.bandlab.com/post/16ca9ce4-62f3-ee11-aaf0-000d3aa5105b"
+      - hobby: 1.mp3
+        url: "https://drive.google.com/file/d/1mLHPCpDJIwMiCMMCWpY8icQahMQPuWk1/view?usp=drive_link"
+      - hobby: 2.mp3
+        url: "https://drive.google.com/file/d/1TVRBTdi-kkIja6TJGJkuGp4IsWxzPZmt/view?usp=drive_link"
+      - hobby: 3.mp3
+        url: "https://drive.google.com/file/d/1CI5b7DmWbankK2aA8En85uXwpCA0kbqb/view?usp=drive_link"

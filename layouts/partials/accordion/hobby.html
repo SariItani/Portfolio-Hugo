@@ -1,5 +1,5 @@
 <ul class="pl-0">
   {{ range.Site.Params.hobby.list }}
-  <li class="list-unstyled mb-2">{{ .hobby }}</li>
+  <li class="list-unstyled mb-2"><a href="{{ .url }}" target="_blank">{{.hobby}}</a></li>
   {{ end }}
 </ul>
