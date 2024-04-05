@@ -163,8 +163,8 @@ params:
         url: "https://github.com/SariItani/Cifar10Resner18"
         description: Training an AI model to classify images from the Cifar10 dataset with Resnet18 architecture.
       - title: ARC website
-        url: "#"
-        description: as
+        url: "https://github.com/Leboweeb/Engineering-Day-Website"
+        description: ARC needed automated processing and various other features like information and blogs and links and stories and media etc... You get it, just what any club needs, a centralized server running managing the process of running the ARC club fully.
       - title: NVIDIA Sketch API with GUI
         url: "#"
         description: as
