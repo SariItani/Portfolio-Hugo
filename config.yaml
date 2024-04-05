@@ -170,10 +170,13 @@ params:
         description: A Solo project i made to learn Django and Flask, and web development in general. This website manages the gym operations fully, from its employees to its clients. To employees, it is a business management system, but to the users it is simply an ecomerce/dashboard analytics web application.
       - title: NVIDIA Canvas API with GUI
         url: "https://github.com/SariItani/Sketching-Website-engday"
-        description: The university owns a super computer capable of running the NVIDIA Canvas app, but most students weren't allowed in the lab without priviliges like being a computer engineering student. Thus, in a due, me and my best friend created an API that links university students on the same network as the Engineering Faculty Labs to the NVIDIA Canvas application found on the super computer, through a 
+        description: The university owns a super computer capable of running the NVIDIA Canvas app, but most students weren't allowed in the lab without priviliges like being a computer engineering student. Thus, in a due, me and my best friend created an API that links university students on the same network as the Engineering Faculty Labs to the NVIDIA Canvas application found on the super computer, through a Flask-based HTML canvas web app that runs client-side on each student's device.
       - title: CLI Java Password Manager
         url: "https://github.com/SariItani/Password-Manager-Java-App"
-        description: as
+        description: Created a XOR and rotating key based encryption algorithm that decreases probability of cracking the password *exponentially* in powers of 2, and implemented it in a nice looking, ascii-art based CLI application that is built with Java so it would be available on any device. The password database is even made with a custom .dat file to avoid sneaky decryptions from hackers.
+      - title: JavaScript Learning Series
+        url: "https://github.com/SariItani/JS-Peer-Learning-Files"
+        description: the
   proposals:
     title: Proposals & Research
     icon: fas fa-tasks
