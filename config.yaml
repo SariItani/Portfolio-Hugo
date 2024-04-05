@@ -220,7 +220,7 @@ params:
         description: Check the [PDF](https://drive.google.com/file/d/1XnvngM-qFsdWI_N3AjPV1AAKQ0NfJ6dk/view?usp=sharing) for a detailed description of this project proposal. The idea is that everything in the universe has a unique sound, and that is a direct consequence of chaos theory. We see that demonstrated in this project. We can extract the sound of every touchable object in the universe. Each object has a unique surface distribution of atoms, and using a piezo electric material, we can track the distribution of these atoms on the surface, or, if not the atoms, then the unique surface structure to that material. Then, since we have an electric signal, what we can do is infinitely repeat it many times bu rolling the piezo electric material over and over again at the material surface to generate loops in the signal, thus extracting music as verified by fourier transform.
       - title: "Emotion Detection Using Multimodal AI Models Ensemble"
         url: "https://docs.google.com/document/d/1PNqJLew6AI0Ix_iTTJtyPGFYEXnGHmjY/edit?usp=drive_link&ouid=108503034386381333465&rtpof=true&sd=true"
-        description: An Attempt to understand and experiment with emotion detection in the most efficient way in every unique combination of AI models and emotion models and data modality. This research is still in its beginning phases, but check this [paper](https://docs.google.com/document/d/1PNqJLew6AI0Ix_iTTJtyPGFYEXnGHmjY/edit?usp=drive_link&ouid=108503034386381333465&rtpof=true&sd=true) that was not published due to its lacking nature.
+        description: An Attempt to understand and experiment with emotion detection in the most efficient way in every unique combination of AI models and [emotion](https://drive.google.com/file/d/1GTgm0g3NIbqev8uwyynAOU0gPtFuzgTw/view?usp=drive_link) models and data modality. This research is still in its beginning phases, but check this [paper](https://docs.google.com/document/d/1PNqJLew6AI0Ix_iTTJtyPGFYEXnGHmjY/edit?usp=drive_link&ouid=108503034386381333465&rtpof=true&sd=true) that was not published due to its lacking nature.
       - title: Symbolic Logic Based AI Architecture with Environmental Integration
         url: "https://drive.google.com/file/d/1-cznCBHn7KXqSwlJJvGfznrqVQnL4z_Q/view?usp=drive_link"
         description: An Attempt to understand and experiment with human intelligence and [model](https://drive.google.com/file/d/1-cznCBHn7KXqSwlJJvGfznrqVQnL4z_Q/view?usp=drive_link) it using computational models of logic and emotions and whatnot. This is still in a very early stage, and is pending, awaiting the Emotion Generation experiment. The core idea is that every intelligent agent must have a central controlling unit that interacts with its environment and its internal components, facilitating its growth and survival optimally.
@@ -239,15 +239,34 @@ params:
       - title: DNA Based Processor
         # url: "#"
         description: "DNA is used to store data in state-of-the-art research. However, what people overlook is that DNA strands have encoded information (ACTG => ACUG) which are then decoded by mRNA and thus generate a sequence of instructions based on codons, tripplets of information (AUCG), and a sequence of these codons create a certain instruction. And so, an instruction set is defined and complex instructions can arise. This has the potential to become an interactive game where your goal is to design the perfect DNA of a living micro organism and understand the intricacies of life itself, or a hobbiest project that is the DNA based Microprocessor."
+      - title: "Machine Unlearning: A Comparative Analysis"
+        url: "https://drive.google.com/file/d/1FbVjLm7o5ZUf2P4RZ0q9PEi2byzrDDyh/view?usp=drive_link"
+        description: This [paper](https://drive.google.com/file/d/1FbVjLm7o5ZUf2P4RZ0q9PEi2byzrDDyh/view?usp=drive_link) explains everything in depth. Published in conference EAAAI 2024, Greece.
   skill:
     title: Skills
     panelId: skill-panel
     icon: fas fa-laptop-code
     list:
-      - skill: "Skill 1, Skill 2"
+      - skill: Python
         skillrating: 90
-      - skill: Skill 3
+      - skill: Java
         skillrating: 80
+      - skill: C
+        skillrating: 50
+      - skill: Flask
+        skillrating: 50
+      - skill: Skill 4
+        skillrating: 50
+      - skill: Skill 4
+        skillrating: 50
+      - skill: Skill 4
+        skillrating: 50
+      - skill: Skill 4
+        skillrating: 50
+      - skill: Skill 4
+        skillrating: 50
+      - skill: Skill 4
+        skillrating: 50
       - skill: Skill 4
         skillrating: 50
   hobby:
