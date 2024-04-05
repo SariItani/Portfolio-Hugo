@@ -194,9 +194,9 @@ params:
       - title: Robot Mania
         # url: "#"
         description: In a planned [ARC](https://www.instagram.com/bau_arc/) event, an obstacle course is randomly generated, and 2 teams are supposed to compete against one another by building a robot and training its movements using reinforcement learning, or by hardcoding its movements, so that the controls are managed by ROS2 operating system that will run the Genetic Algorithm on both team's robots and attempt to pass the obstacle course fair and square. This experience is proposed to be gamified using Unity and published on [itch.io](https://itch.io).
-      - title: Project 2
-        url: "#"
-        description: Description of the project
+      - title: Water Waste Management
+        # url: "#"
+        description: In a collab between ARC and the Chemical Engieering Student Society, our project aim was to 
       - title: Project 3
         url: "#"
         description: Description of the project
