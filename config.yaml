@@ -191,6 +191,9 @@ params:
       - title: Min Lanes Java CLI Game
         url: "https://github.com/SariItani/Minimum-Lanes-CLI-Game"
         description: This is a little game made during Murex interview prep to boost my DSA Data Structures and ALgorithms knowledge, the objective is to find the minimum lane switches to get to the other side. The CLI is designed to where you can easily visualise the lanes and understand the minimum route chosen by the algorithm.
+      - title: Telecom Compnay Management DBSM - Website
+        url: "https://github.com/SariItani/Telecom-Company"
+        description: An SQL Database Project intended to manage a telecom company's workflow, like Alfa and Touch, then connected to a backend of a website made with Flask for ease and quick of development, just for demonstration purposes, but the website sill demonstrates high standards of security and depth and user experience and UI design.
   proposals:
     title: Proposals & Research
     icon: fas fa-tasks
