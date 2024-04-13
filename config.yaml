@@ -194,6 +194,15 @@ params:
       - title: Telecom Compnay Management DBSM - Website
         url: "https://github.com/SariItani/Telecom-Company"
         description: An SQL Database Project intended to manage a telecom company's workflow, like Alfa and Touch, then connected to a backend of a website made with Flask for ease and quick of development, just for demonstration purposes, but the website sill demonstrates high standards of security and depth and user experience and UI design.
+      - title: "Iris Classification: A Comparative Analysis"
+        url: "https://github.com/SariItani/Iris-petal-Prediction"
+        description: EDA, Model Comparison, And more, for the Iris Dataset. Tested a variety of models and preprocessing techniques to get the better most machine learning results from this dataset.
+      - title: "House Price Regression: A Comparative Analysis"
+        url: "https://github.com/SariItani/House-Price-Prediction"
+        description: An Overhaul of AI and Data Science, all the techniques you can think of, for the house price prediction problem. Tested a variety of models and preprocessing techniques to get the better most machine learning results from this dataset.
+      - title: "IMBD Sentiment Analysis Using Logistic Regression"
+        url: "https://github.com/SariItani/imbd-Sentiment-Analysis"
+        description: Logistic Regression on imbd dataset with binarry classification task, with some exploratory data analysis and detailed preprocessing methods. Developed a really low computationally demanding method to analyse sentiment, demonstrated by imbd dataset.
   proposals:
     title: Proposals & Research
     icon: fas fa-tasks
