@@ -7,7 +7,13 @@
   <p {{ if .thesis_title }}class="mb-0"{{ end }}>
     {{ .dates }} &middot; {{ .college }}
   </p>
-  {{ if .thesis_url }}
+  {{ if .thesis_url2 }}
+    <p>
+      <b>Idea:</b> {{ .thesis_title }}<br>
+      <b>View Pitch: </b>
+      <a href="{{.thesis_url2}}" target="_blank"><i>Click here</i></a>
+    </p>
+  {{ else if .thesis_url }}
     <p>
       <b>Idea:</b> {{ .thesis_title }}<br>
       <b>Detailed Description: </b>
