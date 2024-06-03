@@ -4,7 +4,7 @@
     <title>Read My Blogs on </title>
     <link>http://localhost:1313/blog/</link>
     <description>Recent content in Read My Blogs on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Mar 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
