@@ -142,6 +142,10 @@ params:
       - title: Nollini (discontinued)
         type: Website
         url: "https://github.com/SariItani/Nollini--discontinued-"
+        description: A simple flask app for a client incorporating state of the art security best practises to manage a vet owned by the vet owner (the client).
+      - title: Vet Manager
+        type: Website
+        url: "https://github.com/SariItani/vet-website"
         description: An Ecommerce static website that hooks a target market of Lebanese employees based in Lebanon with copy-A European distributers through submitting and showcasing their products on one central hub.
       - title: Blood Donnation Website
         type: Website
