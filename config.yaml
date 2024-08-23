@@ -164,6 +164,15 @@ params:
       - title: Hospital Management System
         type: AI
         description: "In a team of 2, we are creating a hospital management system that links clients to doctors and helps them classify their cases by entering their syndromes and predicting with a Random Forrest model the disease they are suffering from, which is my main responsibilty in this project. You can think about it as a social media platform, more of a LinkedIn, for the medical sector, that fosters the interaction between clients and workers in the health field."
+        url: "https://github.com/SariItani/medical-website"
+      - title: "Seismic Waves to Marine Pulses: A Curation Pipeline for Building an Earth Sciences and Biodiversity Data Lake in the Portuguese Caravela Jellyfish and Seismology Studies"
+        type: Data Science
+        description: "This thesis is part of the Data and Intelligence for Smart Systems curriculum at Universit´e Claude Bernard Lyon 1. Conducted under the supervision of Genoveva Vargas-Solar and J´erˆome Darmont, it aims to integrate seismic wave data and marine pulse information. The motivation is to enhance understanding of the inter- play between geological and biological processes, informing scientific discoveries and environmental conservation strategies. By establishing a curated data lake, this research emphasizes the importance of innovative data management and analysis techniques in interdisciplinary projects."
+        url: "https://karimmatraji.pythonanywhere.com/"
+      - title: "PatchNet: A Hybrid Model for Fine Segmentation of MRI Images across Multiple Organs"
+        type: AI
+        description: "This experiment is one of 4 datasets on biomedical image segmentation, to train 7 Deep Learning (CNN-based and Transformer-based) Image Segmentation Models, incluidng the new Patchnet Architecture. Abstract: In this paper, we introduce PatchNet, a novel hybrid model tailored for fine segmentation tasks in medical imaging, particularly focusing on MRI scans of various organs. Fine segmentation is essential for accurately distinguishing between different tissue types, identifying small abnormalities, and delineating intricate anatomical structures—key in applications requiring high precision. "
+        url: "https://www.kaggle.com/sariitani/fork-of-tumor-segmentation-unet-resnext-resnet-in"
   project:
     title: Projects
     icon: fas fa-project-diagram
@@ -256,9 +265,6 @@ params:
       - title: AI Avatar Creator
         # url: "#"
         description: In our meta-world, humans are relying more on their meta-personas to define their identities than ever before. This means that soon, we will need IDs on the internet, similar to the national IDs we physically hold, which is probably the area of block chain technology. However, assuming that such a secret private key exists, which defines your presence online, then we can create an AI that will scan your face and be able to detect your face forever more, then generate this secret key and integrate it for you in an online identity, so you can for example embed your secret key in any game and get a skin that looks like your meta-self. This is the avatar generator I proposed.
-      - title: DNA Based Processor
-        # url: "#"
-        description: "DNA is used to store data in state-of-the-art research. However, what people overlook is that DNA strands have encoded information (ACTG => ACUG) which are then decoded by mRNA and thus generate a sequence of instructions based on codons, tripplets of information (AUCG), and a sequence of these codons create a certain instruction. And so, an instruction set is defined and complex instructions can arise. This has the potential to become an interactive game where your goal is to design the perfect DNA of a living micro organism and understand the intricacies of life itself, or a hobbiest project that is the DNA based Microprocessor."
       - title: DNA Based Processor
         # url: "#"
         description: "DNA is used to store data in state-of-the-art research. However, what people overlook is that DNA strands have encoded information (ACTG => ACUG) which are then decoded by mRNA and thus generate a sequence of instructions based on codons, tripplets of information (AUCG), and a sequence of these codons create a certain instruction. And so, an instruction set is defined and complex instructions can arise. This has the potential to become an interactive game where your goal is to design the perfect DNA of a living micro organism and understand the intricacies of life itself, or a hobbiest project that is the DNA based Microprocessor."
