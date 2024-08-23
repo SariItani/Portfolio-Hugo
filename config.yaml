@@ -271,6 +271,12 @@ params:
       - title: "Machine Unlearning: A Comparative Analysis"
         url: "https://drive.google.com/file/d/1FbVjLm7o5ZUf2P4RZ0q9PEi2byzrDDyh/view?usp=drive_link"
         description: This [paper](https://drive.google.com/file/d/1FbVjLm7o5ZUf2P4RZ0q9PEi2byzrDDyh/view?usp=drive_link) explains everything in depth. Published in conference EAAAI 2024, Greece.
+      - title: "Roseman Emotion Classifier"
+        url: "https://github.com/SariItani/Roseman-Emotion-Classifier"
+        description: Emotion Detection according to roseman's cognitive theory of emotions. To run the script, first of all open a terminal in the src/ directory, then run data_preprocessing.py then appraisal_model.py then emotion_model.py then predict.py in that order. Enter the sentence you want to predict in the predict.py to get a prediction.
+      - title: "Novel Arabic NLP Sentiment Analysis"
+        url: "https://github.com/SariItani/Arabic-NLP"
+        description: This paper presents a comprehensive study on sentiment analysis in the Arabic language, focusing on five categorical emotional dimensions. We introduce a novel Arabic corpus specifically designed for advanced sentiment analysis. We detail the specifics of a data augmentation technique that inverts the logic of sentences which reverses the predicted emotion, a detailed comparison of state-of-the-art NLP techniques such as TF-IDF, LDA, Bag of Words, etc. We trained machine learning (ML) and deep learning (DL) models for one-vs-many emotion classification and explored the effectiveness of an ensemble model combining these individual classifiers which scored high accuracy values. Furthermore, we analyze unjust voting system inherent in ensemble methods. Our approach highlights the challenges and opportunities in sentiment analysis, and our experimental framework encompasses data preprocessing, exploratory data analysis (EDA), and model training pipelining.
   skill:
     title: "Technical Skills"
     panelId: skill-panel
