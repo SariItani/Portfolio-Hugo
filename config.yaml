@@ -38,9 +38,9 @@ params:
       - icon: fab fa-orcid
         url: "https://orcid.org/0009-0007-7886-510X"
         title: Orcid
-      - icon: fab fa-whatsapp
-        url: "https://wa.link/a9h48p"
-        title: Whatsapp
+      #- icon: fab fa-whatsapp
+        #url: "https://wa.link/a9h48p"
+        #title: Whatsapp
       - icon: fas fa-envelope
         title: Email
         url: "mailto:sariitani101@gmail.com"
